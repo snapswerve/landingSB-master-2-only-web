@@ -1,0 +1,117 @@
+@media (-webkit-min-device-pixel-ratio: 1.5)
+section#app, {
+
+    background-size: 100%;
+    background-position: 50%;
+    max-height: 500px;
+}
+
+@media (max-width: 768px)
+section#app, section#app-sm {
+    height: 200px !important;
+    background-size: 100%;
+    background-position: 50%;
+}
+
+@media (min-width: 1200px)
+section#app, section#app-sm {
+    background-size: 100%;
+    background-position: 50%;
+    max-height: 500px;
+}
+
+
+body {
+    margin-bottom: 100px;
+}
+
+.btn {
+    background-color: #AAA;
+    height: 35px;
+    width: 198px;
+    border: none;
+    color: #FFF;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.btn-primary{
+    background-color: red;
+}
+
+button.btn.primary {
+    margin-right: 11;
+}
+
+
+
+label.booknow {
+    margin-top: 12px;
+    color: rgb(227, 69, 42);
+    margin-right: 0px;
+
+}
+
+label.booknow:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.booknow {
+    margin-top: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.socialmedia {
+  float: right;
+  list-style: none;
+  display: table;
+  li {
+      display: block;
+      display: table-cell;
+  a {
+    width:25px;
+    height:22px:
+  }}}
+
+footer.img {
+    width:25px;
+    height:22px:
+  }
+
+
+body, html {
+    overflow-x: hidden;
+}
+
+div.footcontainer {
+    padding-right: 129px;
+    padding-left: 129px;
+}
+
+#message {
+    font-size: 1.2em;
+    color: red;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+
+#message-sm {
+    font-size: 1.2em;
+    color: red;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 28px;
+}
