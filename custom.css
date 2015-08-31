@@ -20,6 +20,14 @@ section#app, section#app-sm {
     max-height: 500px;
 }
 
+section header{
+    height:auto;
+    background:none;
+    position:inherit;
+    z-index:100;
+    margin-top:0px
+}
+
 
 body {
     margin-bottom: 100px;
